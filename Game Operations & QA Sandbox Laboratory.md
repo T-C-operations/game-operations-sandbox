@@ -30,14 +30,15 @@ Welcome to my personal hands-on testing and quality assurance portfolio. I set u
 * **Expected Result:** Outdoor sound waves attenuate seamlessly by -12dB and apply a low-pass filter override at 1kHz. In-engine audio prioritizes interior situational audio cues (footsteps, item pickups).
 * **Actual Result:** Failed. Tracking details logged inside active Jira defect tickets.
 
-### Test Case ID: TC-DBD-003 (Asymmetrical Perk Interaction Tracking)
-* **Pre-conditions:** Survivor loadout assigned with active movement modifier tokens (e.g., Exhaustion / Haste triggers). 
+### Test Case ID: TC-SURV-003 (Voxel Building Grid & Container Interconnectivity)
+* **Pre-conditions:** Character Blueprint inventory slots must contain active structural building assets. Target terrain chunk must be fully generated.
 * **Execution Steps:**
-  1. Trigger an accelerated physical navigation interaction (e.g., Fast Vaulting a window mesh asset).
-  2. Monitor the active Status Effect HUD layout display elements immediately upon exit frame animation.
-  3. Verify the execution of corresponding cooling timers inside the backend database registry.
-* **Expected Result:** Haste velocity values modify to 1.5x multiplier for 3 seconds, and an instant 40-second Exhaustion tracking token forces down onto the status data table array.
-* **Actual Result:** Mixed validation. Visual UI clears but database variables stay at Null values.
+  1. Open the player crafting UI menu layout canvas.
+  2. Place a secure storage chest actor mesh directly onto a structural base grid.
+  3. Load the storage container array with random item codes until maximum weight capacity is reached.
+  4. Use a demolition asset to destroy the underlying foundational base grid tile.
+* **Expected Result:** The storage chest asset updates its gravity variables, collapses down safely, drops its contents as separate physics loot nodes, and maintains server data integrity.
+* **Actual Result:** Mixed validation. Visual mesh drops but item database tables stay locked at Null values.
 
 ---
 
@@ -57,14 +58,24 @@ Welcome to my personal hands-on testing and quality assurance portfolio. I set u
 * **[Resolved] Ticket 7:** Unassigned audio profile reference tokens inside master item configuration data tables causing silent melee interactions.
 * **[Unresolved] Ticket 8:** Cross-referencing payment ledgers and performing manual profile database overrides for missing player Auric Cell transactions.
 * **[In Progress] Ticket 9:** Triaging client hardware driver routing conflicts and operating system security privacy permissions for proximity voice chat communications.
-
+* **[Unresolved] Ticket 10:** Server item lists failing to clear properly when players drop containers on the ground, causing severe game lag on high-population servers.
+* **[In Progress] Ticket 11:** Cross-referencing player trade logs to find missing inventory items and performing manual account updates to restore them.
+  
 ---
 
-## Subject Matter Expertise & Platform Metrics: Dead by Daylight
+## Game Knowledge & Personal Playtime Metrics
 
-To back my entry-level testing setup with real-world player knowledge, below is my active live-service experience representing a decade of personal familiarity with Dead by Daylight's mechanics and gameplay loops.
+To back my entry-level testing setup with real-world experience, below is a quick list of my personal history playing different game genres and tracking how their mechanics change over time. I have actively played all of these titles through their early legacy versions and their modern updated builds and plenty more. I dont just play games to pass the time, I truly enjoy to explore and learn wihile playing the game. I started playing games as a child as a way to cope with my SC and always being home when younger. Over the years I have play numerous playtests, alphas and, EA titles, I have slowly expanded my game pallette and just like to enjoy games that peak interest, even if others I know dont play, I enjoy it for my own reasons. Even now, I spend my free time with my special needs son and we enjoy his favorite game/s dbd, rocket league. I try to play for him a few times a day if not busy; gaming has been apart of my life and even now i'm glad I get enjoy this hobby/passion with him.
 
-* **Account Lifespan:** Active player and community veteran since 2016 (Continuous familiarity tracking game patches and balance updates).
-* **Role Competency:** Deep understanding of both asymmetrical execution loops (High-tier Survivor perk coordination and Killer pathfinding behaviors).
-* **Mechanics Mastery:** Strong grasp of how perks interact, including vaulting speeds, Exhaustion/Haste cooldown priorities, and audio cues for skill checks.
-* **Live Sandbox Testing:** My personal hours in the Fog serve as the direct baseline data for the custom test scripts and database forms hosted inside this workspace.
+### Asymmetrical Multiplayer: Dead by Daylight
+* **Account Lifespan:** Active player and community veteran since 2016. I have tracked game patches, meta shifts, and system balance updates since the initial launch phase.
+* **Systems Evolution:** Extensive experience playing both the older legacy game versions and the modern updated builds, giving me a front-row view of how balance shifts across the game's entire lifecycle.
+* **Mechanics Mastery:** Strong grasp of how perks interact, including vaulting speeds, Exhaustion and Haste cooldown priorities, and audio cues for skill checks.
+
+### City Simulations & Management Builders (Planet Zoo, Eco, Two Point, The Sims, Farming Simulator etc.)
+* **Systems Evolution:** Years of personal experience playing both the early alpha stages and current updated versions of deep simulation games, tracking shop inventory grid placements, menu screen layouts, and level progression unlocks.
+* **Data Verification:** Strong understanding of player-driven economies, resource gathering systems, and checking backend transaction sheets for errors.
+
+### Open-World Survival & Physics (GTA, VEIN, Rocket League, Subnautica, 7 Days to Die, Astroneer, etc.)
+* **Logistics Analysis:** Extensive playtime testing vehicle physics, item trunk storage limits, structural base building grids, voxel terrain changes, and character clipping bugs across early alpha versions and final modern releases.
+* **Audio Fluency:** Supported games like Astroneer from day-one Early Access to completion. Equipped with a trained ear for tracking outdoor sound settings, audio loops cutting out, and basic headphone/microphone connection glitches.
