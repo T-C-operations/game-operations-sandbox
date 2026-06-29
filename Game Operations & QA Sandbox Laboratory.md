@@ -121,3 +121,4 @@ To remain 100% transparent during the interview process, here is a quick note on
   
 * Purpose of Results: The "Passed," "Failed," and "Mixed" statuses are mapped out to demonstrate my understanding of regression cycles and data hygiene. 
 * The Goal: This sandbox is designed to prove that my logistics precision and lifetime of variety gaming insights translate immediately into keeping a studio's live production environments organized, tracked, and stable.
+* Continuous Learning Mindset: This laboratory represents a snapshot of my rapid self-education. While I am still mastering advanced automated testing environments and studio-specific tools, this sandbox proves that I can pick up new systems, version control pipelines, and defect documentation tracking layouts within days. I am looking for a studio environment where I can apply my strict real-world operational discipline and scale my technical QA skills on a professional dev team.
